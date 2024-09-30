@@ -40,9 +40,9 @@ for job_element in python_job_elements:
     # Recherche du lieu du job dans la balise <p> ayant la classe "location"
     location_element = job_element.find("p", class_="location")
     
-    print(title_element.text.strip())   # Affiche le titre du job
-    print(company_element.text.strip())  # Affiche le nom de l'entreprise
-    print(location_element.text.strip())  # Affiche le lieu du job
+    print(f"Emploi: {title_element.text.strip()}")   # Affiche le titre du job
+    print(f"Entreprise: {company_element.text.strip()}")  # Affiche le nom de l'entreprise
+    print(f"Ville: {location_element.text.strip()}")  # Affiche le lieu du job
     print()  # Ajoute une ligne vide pour espacer les différentes offres
 
     # Recherche tous les liens (<a>) à l'intérieur de cet élément de job (cela peut inclure le lien pour postuler)
