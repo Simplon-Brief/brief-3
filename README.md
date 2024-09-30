@@ -82,3 +82,7 @@ Apply here: https://realpython.github.io/fake-jobs/python-engineer
 ## Avertissements
 
 - Ce script est à des fins d'exemple et fonctionne sur une page statique fictive. Si vous voulez l'utiliser sur un site réel, assurez-vous de respecter les [conditions d'utilisation](https://realpython.com/legal/) du site en question, en particulier celles concernant le scraping.
+```
+## Lien vers capture d'écran
+
+https://github.com/Simplon-Brief/brief-3/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-09-30%20a%CC%80%2016.13.35.png
